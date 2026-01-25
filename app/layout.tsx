@@ -3,6 +3,8 @@ import { Manrope } from "next/font/google";
 import "./globals.css";
 import NextTopLoader from "nextjs-toploader";
 import { Toaster } from "@/components/ui/sonner";
+import Navbar from "@/components/Home/Navbar";
+import Footer from "@/components/Home/Footer";
 
 const manrope = Manrope({
   subsets: ["latin"],
@@ -27,7 +29,9 @@ export default function RootLayout({
           <Toaster
           position={"top-right"} 
         />
+           <Navbar />
         {children}
+        <Footer />
       </body>
     </html>
   );

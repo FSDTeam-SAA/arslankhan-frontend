@@ -43,7 +43,7 @@ const carsData = [
 
 export default function RecentlyAddedCars() {
   return (
-    <section className="bg-white py-12 md:py-20 px-1 sm:px-6 lg:px-0">
+    <section className="bg-white mt-[100px] py-12 md:py-20 px-1 sm:px-6 lg:px-0">
       <div className="container mx-auto">
         {/* Header */}
         <h2 className="text-3xl md:text-4xl font-semibold text-[#000000] mb-12 text-center text-balance">

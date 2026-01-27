@@ -2,6 +2,7 @@
 
 import { Button } from '@/components/ui/button'
 import Image from 'next/image'
+import Link from 'next/link'
 
 export default function SellYourCar() {
   return (
@@ -18,9 +19,13 @@ export default function SellYourCar() {
               <p className="text-lg text-gray-100">
                 We Are A Trusted Car Marketplace That Connects Buyers, Sellers, And Dealers On One Simple Platform.
               </p>
+              <div>
+              <Link href="/sell-your-car">
               <Button className="w-full md:w-auto bg-red-600 hover:bg-red-700 text-white font-bold py-3 px-8 rounded-lg text-lg">
                 Sell Your Car
               </Button>
+              </Link>
+              </div>
             </div>
           </div>
 

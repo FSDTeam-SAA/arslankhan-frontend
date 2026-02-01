@@ -3,6 +3,7 @@
 import { Button } from '@/components/ui/button'
 import { CarFront, Tag } from 'lucide-react'
 import Image from 'next/image'
+import Link from 'next/link'
 
 interface DealerCardProps {
   name: string
@@ -52,9 +53,11 @@ export default function DealerCard({
           </div>
 
           {/* Button */}
+          <Link href="/dealer-details/1">
           <Button className="w-full bg-[#DC2033] hover:bg-red-700 text-white font-bold h-[49px] rounded-[8px]">
             View Details
           </Button>
+          </Link>
         </div>
 
         {/* Right Image */}

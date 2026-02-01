@@ -2,6 +2,7 @@
 
 import { Button } from '@/components/ui/button'
 import Image from 'next/image'
+import Link from 'next/link'
 
 interface CarCardProps {
   id: number
@@ -41,9 +42,11 @@ export default function DealersCard({
       
 
         {/* Button */}
+        <Link href={`/dealer-details/1`}>
         <Button className="w-full bg-[#DC2033] hover:bg-red-700 text-white font-bold py-3 rounded-lg mt-auto">
           View Details
         </Button>
+        </Link>
       </div>
     </div>
   )

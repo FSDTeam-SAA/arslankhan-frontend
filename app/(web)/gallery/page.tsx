@@ -56,7 +56,7 @@ export default function GalleryPage() {
 
   return (
     <main className="min-h-screen bg-white">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 md:py-16">
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-8 md:py-16">
         {/* Header with Back Button */}
         <div className="flex items-center gap-4 mb-8 md:mb-12">
           <Link href="/">
